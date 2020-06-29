@@ -1,0 +1,21 @@
+@font-face{
+	font-family:"Montserrat";
+	src:url("../font/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face{
+	font-family:"nunitosans";
+	src:url("../font/NunitoSans-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:"Cocogoose_Pro";
+	src: url("../font/Cocogoose Pro-trial.ttf") format("truetype");
+}
+@font-face{
+	font-family:"Cocogoose_Pro_Ultralight";
+	src: url("../font/Cocogoose_Pro Ultralight-trial.ttf") format("truetype");
+}
+@font-face{
+	font-family:"Ubuntu_R";
+	src: url("../font/Ubuntu-R.ttf") format("truetype");
+}

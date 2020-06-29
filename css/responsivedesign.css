@@ -1,0 +1,237 @@
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+------------------------------------------*/
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+--------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+	header .logo img {
+		margin-left:10px;
+	}
+	.container_full {
+		width: 100%;
+	}
+	div .banner {
+		float:left;
+		width: 90%;
+		margin-left:20px;
+	}
+	div .all_service div {
+		float:none;
+		width: 85%;
+		margin:0 auto;
+	}
+	div .all_service .responsive {
+		float:none;
+		width: 85%;
+		overflow:hidden;
+		margin-right: 7% !important;
+	}
+	.skill .my_images img {
+		display:none;
+	}
+	.skill_bg div .skill .skill_drictry div div{
+		font-size: 15px;
+	}
+	.skill_bg div .skill .skill_drictry {
+		WIDTH: 95%;
+		font-size:15px;
+	}
+	.skill_bg div .skill .skill_drictry div div span {
+		margin-top:2px;
+		font-size: 15px;
+	}
+	.skill_bg div .skill .skill_drictry .skill_all {
+		height: 22px;
+		border-radius: 2px;
+	}
+	.skill_bg div .skill .skill_drictry .skill_all div {
+		height: 22px;
+		border-radius: 2px;
+	}
+	.about_bg .about span {
+		width: 94%;
+		font-size: 21px;
+	}
+	.portfolio_min .contain{
+		float:none;
+		width:100%;
+	}
+	.portfolio_min .contain .overlay {
+		opacity:1;
+	}
+	.portfolio_bg .portfolio_min .view_all {
+		margin-top:35px;
+		margin-bottom:35px;
+	}
+	.footer_top_contact_us_min {
+		width: 100%;
+		height: 355px;
+	}
+	.footer_top_contact_us_min h2{
+		width: 100%;
+	}
+	.footer_top_contact_us_min p{
+		width: 100%;
+	}
+	.footer_top_contact_us_min a{
+		float:left;
+		margin-top:5px;
+	}
+	.footer_top_bg {
+		height: 840px;
+	}
+	.footer_bg .footer {
+		width:346px;
+	}
+	.footer_top_bg .footer_top .footer_top_left {
+		width:100%;
+	}
+	.footer_top_bg .footer_top div {
+		width:100%;
+	}
+	.menu_toggle {
+		float: right;
+		width:40px;
+		margin-top: 37px;
+		margin-right: 10px;
+		display:block;
+	}
+	.menu_toggle img{
+		width:20px;
+		height:20px;
+		position: absolute;
+		padding: 10px;
+		background: #E9E9E9;
+		transition:all 0.3s;
+	}
+	
+	header nav ul li a{
+		display:block;
+		width:100%;
+		padding: 12px 16px;
+		background-color:#EFEFEF;
+	}
+	header nav ul li a:hover {
+		color:#000000;
+	}
+	header nav ul li a:active {
+		color:#8FDEF6;
+		background-color:#aaa;
+	}
+	header nav ul li{
+		margin:0;
+		padding:0;
+		float:none;
+		border-top:1px solid #000;
+	}
+	header nav ul li .hire_me {
+		padding:12px 0;
+		background: none;
+		color:;
+		transition: 0.2s;
+		border-radius: 0px;
+	}header nav ul #hire_me {
+		text-align:center;
+		background-color:#DFDDDD;
+		padding-left:0px;
+		margin-left:0;
+	}
+	header nav ul li .hire_me:hover {
+		background: none;
+		color:#5a5a5a;
+	}
+	header nav ul #hire_me:active {
+	}
+	header nav ul #hire_me a:active{
+		color:#000000;
+		background: #D0D0D0;
+	}
+	header nav{
+		transition: all 0.4s;
+		width:100%;
+		height:0;
+		background-color: red;
+		margin-right:0;
+		margin-top:0;
+	}
+	header nav ul #sclect_page a{
+		color:#8FDEF6;
+	}
+	.header_banner_all{
+	position:relative;
+}
+.header{
+	position: relative;
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+.portfolio_all_min_bg{
+	top:0;
+	left:0;
+	z-index:-1;
+}
+	.portfolio_all_min section{
+		width:100%;
+	}
+.container_erer {
+    width:100%;
+    display: block;
+    margin: 0 auto;
+}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
